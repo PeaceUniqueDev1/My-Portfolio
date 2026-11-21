@@ -6,8 +6,11 @@ const skills = [
   'CSS',
   'JavaScript',
   'React',
+  'Firebase',
+  'Vite',
   'Git',
   'GitHub',
+  'Vercel',
 ]
 
 const projects = [
@@ -15,9 +18,9 @@ const projects = [
     number: '01',
     title: 'UNIQMART',
     description:
-      'My graduation e-commerce project, inspired by modern online shopping platforms.',
-    tech: 'React · JavaScript · CSS · API',
-    link: 'https://my-temu-clone.vercel.app/',
+      'A responsive e-commerce web application where users can browse products, search categories, manage their shopping carts, register and log in, place orders, and view order receipts. It includes simulated card payment and Cash on Delivery.',
+    tech: 'React · JavaScript · CSS · Firebase · API',
+    link: 'https://my-temu-clone-px2hyc3x1-p-dev2.vercel.app/',
   },
   {
     number: '02',
@@ -25,7 +28,7 @@ const projects = [
     description:
       'A note-taking application where users can create, edit, search and delete notes.',
     tech: 'React · JavaScript · CSS',
-    link: "https://note-app-henna-ten.vercel.app/",
+    link: 'https://note-app-henna-ten.vercel.app/',
   },
   {
     number: '03',
@@ -186,7 +189,7 @@ function App() {
 
         <div className="resume-buttons">
           <a
-            href="/files/PEACE UNIQU2.pdf"
+            href="/files/peace-unique-resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="secondary-btn"
@@ -195,8 +198,8 @@ function App() {
           </a>
 
           <a
-            href="/files/PEACE UNIQU2.pdf"
-            download
+            href="/files/peace-unique-resume.pdf"
+            download="Peace-Unique-Resume.pdf"
             className="primary-btn"
           >
             Download Resume ↓
@@ -251,7 +254,7 @@ function App() {
         </p>
 
         <a
-          href="mailto:your-email@example.com"
+          href="mailto:peaceunique23@gmail.com"
           className="primary-btn"
         >
           Send Me an Email

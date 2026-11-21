@@ -79,14 +79,14 @@ footer span {
   line-height: 1.9;
 }
 
+/* BUTTONS */
+
 .hero-buttons {
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
   margin-top: 35px;
 }
-
-/* BUTTONS */
 
 .primary-btn,
 .secondary-btn {
